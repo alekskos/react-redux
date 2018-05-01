@@ -1,0 +1,13 @@
+button {
+    font: 1.25rem/1.4 -apple-system;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: transparent;
+    padding: 6px 12px;
+}
+button:active,
+button:focus {
+    background: black;
+    color: #fff;
+}
