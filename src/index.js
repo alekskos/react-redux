@@ -6,8 +6,6 @@ import App from './containers/App'
 import store from './store'
 import registerServiceWorker from './registerServiceWorker'
 
-console.log(store.getState());
-
 render(
     <Provider store={store}>
         <App />
